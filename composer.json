@@ -1,0 +1,15 @@
+{
+    "name": "dkrasilnikov/literato-payment-bundle",
+    "description": "Demo bundle for PHP Pro course",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "symfony/framework-bundle": "7.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Literato\\Bundle\\PaymentBundle\\": "src/"
+        }
+    }
+}
